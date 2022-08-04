@@ -3,6 +3,7 @@ body {
     font-family:'Arial';
     display:flex;
     justify-content: center;
+    gap:24px
 }
 
 msg{
@@ -15,4 +16,17 @@ p {
     font-weight: bolder;
     font-size:64px;
     padding-top:250px;
+}
+
+.play {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.plays {
+    background-color: blue;
+    border-radius: 16px;
+    border:none;
+    font-size:48px;
 }
