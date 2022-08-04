@@ -1,0 +1,18 @@
+body {
+    background: url("https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/03/RockPaperScissor-2880x1620_Lede.jpg");
+    font-family:'Arial';
+    display:flex;
+    justify-content: center;
+}
+
+msg{
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color:yellow;
+    font-weight: bolder;
+    font-size:64px;
+    padding-top:250px;
+}

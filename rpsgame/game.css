@@ -80,7 +80,7 @@ h3 {
 	text-decoration:none;
 }
 
-.new {
+.new,.finish {
 	margin-left:auto;
 }
 
@@ -88,6 +88,11 @@ h3 {
 	font-size:24px;
 	border-radius:8px;
 	
+}
+
+.finish button {
+    font-size:24px;
+	border-radius:8px;
 }
 
 .footer {
