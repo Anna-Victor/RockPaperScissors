@@ -1,4 +1,4 @@
 const btn = document.querySelector('.btn');
-btn.addEventListener('click', function () {
-    window.location.replace = "file:///Users/annaaba/repos/RockPaperScissors/rpsgame/game.html";
-});
+//btn.onclick = "location.href='game.html';" value = "Go to Game";
+
+   // window.location.href = "https://github.com/Anna-Victor/RockPaperScissors/blob/main/rpsgame/game.html";
