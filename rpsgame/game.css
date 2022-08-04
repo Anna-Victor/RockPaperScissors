@@ -1,0 +1,106 @@
+.header {
+	display:flex;
+	background-color : red;
+	justify-content:space-between;
+	padding:4px;
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	
+	
+}
+
+ul {
+	display:flex;
+	list-style-type:none;
+	gap: 16px;
+}
+
+.profile-image {
+	background:rebeccapurple;
+	box-shadow:inset 2px 2px 4px rgba(0,0,0,.5);
+	border-radius: 50%;
+	width:48px;
+	height:48px;
+}
+
+.Left-Side, .Right-Side {
+	display:flex;
+	align-items: center;
+	gap:16px;
+}
+
+
+
+body { 
+	font-family : Besley, serif;
+	display:flex;
+	flex-direction:column;
+	background:url("https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/03/RockPaperScissor-2880x1620_Lede.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+
+h3 {
+	display:flex;
+	padding:10px;
+	background:blue;
+	margin-top:75px;
+	width:300px;
+	justify-content:space-between;
+	border:2px solid black;
+	margin-left:2px;
+}
+
+#playerScore, #computerScore {
+	border:1px solid black;
+	width:25px;
+	text-align:center;
+}
+
+.buttons {
+	display:flex;
+	height:65vh;
+	justify-content:center;
+	align-items:center;
+	gap:16px;
+	
+	
+}
+
+.buttons .choice {
+	width:120px;
+	height:10vh;
+	border-radius:8px;
+	border:none;
+	background:yellow;
+	font-size:24px;
+	text-decoration:none;
+}
+
+.new {
+	margin-left:auto;
+}
+
+.new button {
+	font-size:24px;
+	border-radius:8px;
+	
+}
+
+.footer {
+	display:flex;
+	color:black;
+	background:red;
+	font-size:20px;
+	position:fixed;
+	left:0;
+	bottom:0;
+	right:0;
+	justify-content:center;
+}
+
+
+
